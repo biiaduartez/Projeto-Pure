@@ -21,12 +21,12 @@
 
 - VSCODE
 - GITHUB / GIT
-- FIGMA
+- [FIGMA](https://www.figma.com/file/P4h3sb8aTkuFEGGhGdniik/Untitled?node-id=0%3A1&t=GGHHrm93VRiZHtqb-0)
 - FLATICON
 
 
 ## **AUTORES**
 
-- [Bianca Duarte]https://github.com/biiaduartez)
+- [Bianca Duarte](https://github.com/biiaduartez)
 - [Caio Palermo](https://github.com/HasegawaTaizou)
-- [Eduardo Ribeiro]https://github.com/Rib3r0)
+- [Eduardo Ribeiro](https://github.com/Rib3r0)
