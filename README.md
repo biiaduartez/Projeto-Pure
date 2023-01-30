@@ -2,7 +2,7 @@
 
 
 ![](./img/DESKTOP.png)
-![](./img/
+
 
 ## [Clique aqui](https://github.com/biiaduartez/Projeto-Pure.git) para acessar o site
 
