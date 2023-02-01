@@ -1,0 +1,78 @@
+@media (max-width: 64em) {
+
+  .pure-img{
+    padding-top: 10px;
+    height: 100px;
+    width: 214px;
+  }
+  .syscom__title{
+    font-size: 70px;
+  }
+  .syscom__subtitle{
+    display: none;
+  }
+  fieldset input {
+    width: 332px;
+    height: 45px;
+  }
+
+  #stacked-username {
+    font-size: 25px;
+  }
+  
+  #stacked-password {
+    font-size: 25px;
+    margin: 26px 0px;
+  }
+  
+  .pure-button-primary {
+    font-size: 25px;
+    width: 154px;
+    height: 47px;
+  }
+
+  
+  .syscom-forgot {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 48em) {
+
+  .pure-img{
+    padding-top: 19px;
+    height: 124px;
+    width: 114px;
+  }
+  .syscom__title{
+    font-size: 40px;
+  }
+  .syscom__subtitle{
+    display: none;
+  }
+  fieldset input {
+    width: 232px;
+    height: 35px;
+  }
+
+  #stacked-username {
+    font-size: 15px;
+  }
+  
+  #stacked-password {
+    font-size: 15px;
+    margin: 26px 0px;
+  }
+  
+  .pure-button-primary {
+    font-size: 15px;
+    width: 84px;
+    height: 27px;
+  }
+
+  
+  .syscom-forgot {
+    font-size: 15px;
+    margin-bottom: 27px;
+  }
+}
