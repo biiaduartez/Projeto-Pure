@@ -1,34 +1,25 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   height: 100vh;
   background-image: linear-gradient(to bottom, #a303b0, #000000);
   background-repeat: no-repeat;
-  display: grid;
-  grid-template-areas:
-    "header main"
-    "header footer";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2.5fr 1fr;
   font-family: "Dhyana", sans-serif;
   color: white;
 }
 
-header {
-  grid-area: header;
-  display: grid;
+#display{
+  align-content: center;
+  flex-direction: row;
+  height: 100%;
+}
+#logo{
+  display: flex;
   flex-direction: column;
-  place-self: center center;
-  justify-content: center;
+  align-items: center;
 }
 
-.syscom__log {
-  width: 520px;
-  height: 520px;
+.pure-img{
+  height: 436px;
+  width: 437px;
 }
 
 .syscom__title {
@@ -39,11 +30,11 @@ header {
   margin: 0;
 }
 
-main {
-  grid-area: main;
-  display: grid;
-  place-self: center center;
-  margin-top: 180px;
+.login__container{
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .syscom__subtitle {
@@ -56,10 +47,14 @@ main {
 
 .pure-form {
   margin: 40px;
+  margin-bottom: 0px;
 }
 
 fieldset {
   font-family: "KoHo", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 fieldset input {
@@ -83,25 +78,24 @@ fieldset input {
   width: 210px;
   height: 34px;
   font-size: 1.5rem;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
-footer {
-  grid-area: footer;
+.links {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  transform: translate(0px, -50px);
 }
 
 footer span {
   display: block;
 }
 
-@font-face {
-  font-family: "Dhyana";
-  src: url(../fonts/Dhyana\ Regular.ttf);
-  font-style: normal;
-  font-weight: normal;
+footer a {
+  text-align: center;
+}
+
+.syscom-forgot {
+  font-size: 1.25rem;
+  margin-bottom: 7px;
 }
