@@ -4,7 +4,7 @@
 ![](./img/DESKTOP.png)
 
 
-## [Clique aqui](https://github.com/biiaduartez/Projeto-Pure.git) para acessar o site
+## [Clique aqui](https://biiaduartez.github.io/Projeto-Pure/) para acessar o site
 
 ## **SOBRE**
 - O site, ou melhor dizendo, a tela de login foi realizada utilizando o Framework Pure.CSS
